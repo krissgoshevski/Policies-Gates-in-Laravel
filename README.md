@@ -13,7 +13,7 @@ This application includes the following features:
   
 Access Control:
 - Admin: Full access to all CRUD operations.
-- User: Can only edit and view their own tasks.
+- User: Can create but, edit, delete and view their own tasks.
 
 
 
