@@ -1,3 +1,23 @@
+This application includes the following features:
+
+Controllers: Manage the flow of the application.
+Email Verification: Sends verification emails after successful registration.
+Authentication: Handles registration, login, and logout processes.
+Policies: Define user permissions for various actions.
+Gates: Control access based on specific conditions.
+Custom Middlewares: Implement custom request handling.
+Custom Requests: Validate and sanitize incoming data.
+Password Generation: Facilitate password resets.
+Seeders: Populate the database with initial data.
+Access Control:
+
+Admin: Full access to all CRUD operations.
+User: Can only edit and view their own tasks.
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
