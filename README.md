@@ -1,18 +1,19 @@
 This application includes the following features:
 
-Controllers: Manage the flow of the application.
-Email Verification: Sends verification emails after successful registration.
-Authentication: Handles registration, login, and logout processes.
-Policies: Define user permissions for various actions.
-Gates: Control access based on specific conditions.
-Custom Middlewares: Implement custom request handling.
-Custom Requests: Validate and sanitize incoming data.
-Password Generation: Facilitate password resets.
-Seeders: Populate the database with initial data.
-Access Control:
+- Controllers: Manage the flow of the application.
+- Email Verification: Sends verification emails after successful registration.
+- Authentication: Handles registration, login, and logout processes.
+- Policies: Define user permissions for various actions.
+- Gates: Control access based on specific conditions.
+- Custom Middlewares: Implement custom request handling.
+- Custom Requests: Validate and sanitize incoming data.
+- Password Generation: Facilitate password resets.
+- Seeders: Populate the database with initial data.
 
-Admin: Full access to all CRUD operations.
-User: Can only edit and view their own tasks.
+  
+Access Control:
+- Admin: Full access to all CRUD operations.
+- User: Can only edit and view their own tasks.
 
 
 
