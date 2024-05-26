@@ -35,31 +35,7 @@ return [
 
     'connections' => [
 
-        'testConnection' => [
-            'driver'    => 'mysql',
-            'host'      => '192.168.20.40',
-            'database'  => 'baranja',
-            'username'  => 'baranja',
-            'password'  => '4euFsu9sI6bG',
-            'charset'   => 'utf8',
-            'collation' => 'utf8_unicode_ci',
-            'prefix'    => '',
-            'strict'    => false,
-        ],
-
-        // //
-        // 'mysql' => [
-        //     'driver'    => 'mysql',
-        //     'host'      => env('DB_HOST', 'localhost'),
-        //     'database'  => env('DB_DATABASE', 'laravel'),
-        //     'username'  => env('DB_USERNAME', 'root'),
-        //     'password'  => env('DB_PASSWORD', 'neo123tel'),
-        //     'charset'   => 'utf8',
-        //     'collation' => 'utf8_unicode_ci',
-        //     'prefix'    => '',
-        //     'strict'    => false,
-        // ],
-        // //
+       
 
         'sqlite' => [
             'driver' => 'sqlite',
