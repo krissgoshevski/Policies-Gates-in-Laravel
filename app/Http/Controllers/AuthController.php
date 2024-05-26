@@ -9,13 +9,11 @@ use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Auth;
 
 
-class AuthController extends BaranjaController
+class AuthController extends Controller
 {
 
     public function register(Request $request)
-    {
-        // $validEmails = $this->allActiveEmailsBaranjaModel();
-       
+    {       
         $fields = $request->validate([
             'name' => 'required|string',
             'email' => 'required|string|email|unique:users,email',
@@ -29,7 +27,7 @@ class AuthController extends BaranjaController
             'role_id' => 2,
         ]);
 
-        // $user->sendEmailVerificationNotification();
+         $user->sendEmailVerificationNotification();
 
         return response()->json([
             'status' => 'success',
